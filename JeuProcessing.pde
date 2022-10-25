@@ -1,5 +1,5 @@
 // Load Images and Sounds
-//PImage sprPlayer = loadImage("player.png");
+PImage sprPlayer = loadImage("player.png");
 
 // Player Object
 class Player {
@@ -8,7 +8,7 @@ class Player {
     
   void drawPlayer() {
     fill(30, 30, 30);
-    rect(x, y, 50, 50);
+    image(sprPlayer, 0, 0);
     
   }
 };
